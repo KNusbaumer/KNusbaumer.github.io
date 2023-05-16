@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kassandra N. | Online Profile</title>
+    <link rel="icon" type="image/x-icon" href="icon.png"> <!-- Icon left in Tab -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+          /* BACKGROUND IMG BEHIND CONTAINER*/
+          body {
+            background-image: url(background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+         /* PINK COLOR IN FRONT OF BACKGROUND IMG */
+         .container {
+            background-color: rgb(240, 179, 151);
+            border: 6px double white;
+            padding: 5%;
+        }
+         /* NAV SYSTEM */
+        nav {
+            padding-top: 6%;
+
+        }
+        /* BIG TITLE LEFT CORNER */
+        .name {
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            border-bottom: 4px double white;
+
+        }
+        /* SUBTEXT FOR TITLE  */
+        .occp {
+            font-style: italic;
+            font-size: 25px;
+            color: rgb(104, 71, 32);
+        }
+        /* LINKS INSIDE NAV */
+        .reglinks {
+            font-size: 25px;
+            padding-right: 5%;
+            text-decoration: none;
+        }
+        /* REACTIVE SETTINGS TO NAV */
+        .reglinks:link {
+            color: rgb(255, 255, 255);
+        }
+
+        .reglinks:hover {
+            font-style: italic;
+            border-bottom: 1px double white;
+
+
+        }
+
+        .reglinks:active {
+            color: rgb(68, 68, 68);
+        }
+
+        .reglinks:visited {
+            color: rgb(255, 255, 255);
+        }
+        /* BUTTONS FOR INDEX PAGE */
+        .btn {
+            font-size: 25px;
+            padding: 20px;
+            background-color: rgb(216, 146, 80);
+            border: double 4px white;
+            border-radius: 50%;
+            width: 100%;
+        }
+        /* REACTIVE SETTINGS TO BNTS */
+        .btn:hover {
+            font-style: italic;
+            background-color: rgb(68, 68, 68);
+
+        }
+
+        /* PROFILE PICTURE */
+        .profilepic {
+            border-radius: 50%;
+            width: 500px;
+            border: 6px double white;
+
+        }
+        /* HELLO TEXT INDEX */
+        .greet {
+            font-size: 70px;
+            color: white;
+            border-bottom: 4px double white;
+            margin-left: 20%;
+            margin-right: 20%;
+
+        }
+        /* A BIT ABOUT ME TEXT INDEX*/
+        .intro {
+            font-size: 30px;
+            color: rgb(68, 68, 68);
+        }
+        /* BIG PARAGRAPH BELOW BNTS */
+        .pabout {
+            color: rgb(68, 68, 68);
+            font-size: 20px;
+            padding: 2%;
+            padding-top: 5%;
+
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container text-center"> <!-- Sections on Tab -->
+            <div class="row"> <!-- ROW ONE -->
+                <div class="col">
+                    <h1 class="name">Kassandra Nusbaumer</h1>
+                    <h3 class="occp">Computer Science Student of OTC</h3>
+                </div>
+                <div class="col">
+                    <nav> <!-- NAV SYSTEM -->
+                        <a href="index.html" class="reglinks" style="color:rgb(255, 255, 255);">HOME</a>
+                        <a href="project.html" class="reglinks">PROJECTS</a>
+                        <a href="contact.html" class="reglinks">CONTACT</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row"> <!-- ROW TWO -->
+                <div class="col">
+                    <img src="indexprofilepic.jpg" alt="profilepic" class="profilepic"> <!-- PROFILE PICTURE -->
+                </div>
+                <div class="col">
+                    <h1 class="greet">Hello!</h1>
+                    <h3 class="intro">a bit about me:</h3>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <!--BUTTONS-->
+                        <form style="display: inline" action="history.html" method="get" class="reglinks"> 
+                            <button class="btn btn-primary">My History</button>
+                        </form>
+
+                        <form style="display: inline" action="goal.html" method="get" class="reglinks">
+                            <button class="btn btn-primary">My Goals</button>
+                        </form>
+
+                    </div>
+                    <div class="col"> <!-- PARAGRAPH ABOUT ME -->
+                        <p class="pabout">As a student with a passion for technology and design, I am excited about the
+                            possibilities of a career in web development. Through my coursework, I
+                            have gained experience in HTML, CSS, and JavaScript.I am particularly interested in
+                            front-end
+                            development, where I can use my creativity and problem-solving skills to build engaging and
+                            user-friendly interfaces.<br><br>If
+                            you are looking for a motivated and dedicated team player with a strong desire to learn and
+                            grow, please don't hesitate to connect with me. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
